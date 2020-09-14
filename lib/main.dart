@@ -11,7 +11,7 @@ class Quizzler extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.grey.shade900,
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 10.0),
@@ -44,7 +44,6 @@ class _QuizPageState extends State<QuizPage> {
 
         quizBrain.reset();
         scoreKeeper = [];
-
       } else {
         if (userPickedAnswer == correctAnswer) {
           scoreKeeper.add(Icon(
@@ -89,7 +88,7 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(15.0),
             child: FlatButton(
               textColor: Colors.white,
-              color: Colors.green,
+              color: Colors.blue,
               child: Text(
                 'True',
                 style: TextStyle(
