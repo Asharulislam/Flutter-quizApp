@@ -1,2 +1,2 @@
 # Flutter-quizApp
-![Alt Text](bmi-calc-demo.gif)
+![Alt Text](quizzler-demo.gif)
